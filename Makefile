@@ -37,8 +37,8 @@ venv_init:
 	$(call venv_exec,.venv,pip install -r requirements.txt)
 
 roles_init:
-	mkdir roles
-	$(call venv_exec,.venv,ansible-galaxy install -r requirements.txt -p roles)
+	mkdir -p roles
+	$(call venv_exec,.venv,ansible-galaxy install -r requirements.yaml -p roles)
 
 # VENV FUNCTIONS
 define venv_exec

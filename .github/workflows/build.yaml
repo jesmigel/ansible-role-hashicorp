@@ -33,7 +33,7 @@ jobs:
         run: make lint
 
       - name: Initialise roles
-        run: make init_roles
+        run: make roles_init
       
       - name: Run playbook
         run: ansible-playbook -i inventories/github -t hashicorp_apt playbook.yaml
