@@ -1,0 +1,4 @@
+# from github
+- src: https://github.com/jesmigel/ansible-role-common.git
+  name: common
+  version: v1.0

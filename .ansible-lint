@@ -1,0 +1,2 @@
+warn_list:  # or 'skip_list' to silence them completely
+  - no-tabs  # Most files should not contain tabs
