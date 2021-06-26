@@ -36,4 +36,4 @@ jobs:
         run: make init_roles
       
       - name: Run playbook
-        run: run: ansible-playbook -i inventories/github -t hashicorp_apt playbook.yaml
+        run: ansible-playbook -i inventories/github -t hashicorp_apt playbook.yaml
