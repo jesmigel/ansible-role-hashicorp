@@ -1,6 +1,6 @@
 # ansible-role-hashicorp
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/jesmigel/ansible-role-hashicorp/actions/workflows/lint.yaml/badge.svg?branch=main)](https://github.com/jesmigel/ansible-role-hashicorp/actions/workflows/lint.yaml)
+[![CI](https://github.com/jesmigel/ansible-role-hashicorp/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/jesmigel/ansible-role-hashicorp/actions/workflows/build.yaml)
 
 Ansible hashicorp role. Used for bootstrapping a host with Hashicorp tools.
 
