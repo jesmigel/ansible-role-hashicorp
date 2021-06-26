@@ -49,8 +49,8 @@ Ansible hashicorp role. Used for bootstrapping a host with Hashicorp tools.
 This repository is used as an ansible role. It can be referenced through a requirements.yaml file.
 ```yaml
 # from github
-- src: https://github.com/jesmigel/ansible-role-common.git
-  name: common
+- src: https://github.com/jesmigel/ansible-role-hashicorp.git
+  name: hashicorp
 ```
 
 The role can be installed through the ansible-galaxy command:
