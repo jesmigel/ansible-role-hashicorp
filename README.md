@@ -2,6 +2,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CI](https://github.com/jesmigel/ansible-role-hashicorp/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/jesmigel/ansible-role-hashicorp/actions/workflows/build.yaml)
 
+*NOTE:* To be sunset in favor of hashicorp products executed through containers.
+
 Ansible hashicorp role. Used for bootstrapping a host with Hashicorp tools.
 
 ### References
